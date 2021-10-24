@@ -57,3 +57,7 @@ This ms demonstrate the use of spring cloud functions.
     
     GET http://localhost:8080/getAllStudent,getStudentAvgAge
 	
+### curl
+    curl localhost:8080/getAllStudent
+    curl -H "Content-Type: text/plain" localhost:8080/getStudentById -d 1
+    curl -H "Content-Type: application/json" localhost:8080/saveStudent -d "{\"name\":\"test_curl\",\"age\":25}"
