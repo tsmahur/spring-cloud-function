@@ -1,0 +1,12 @@
+--data.sql
+
+--INSERT INTO STUDENT (name, age) VALUES
+--  ('Abc', 12),
+--  ('Th', 13),
+--  ('Cap', 16);
+--  script not working as entity class is overriding the table to empty
+
+INSERT INTO STUDENT (id,name, age) VALUES
+  (1,'Abc', 12),
+  (2,'Th', 13),
+  (3,'Cap', 16);

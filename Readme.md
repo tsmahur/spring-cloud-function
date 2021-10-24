@@ -1,10 +1,6 @@
 # spring-cloud-function
 This ms demonstrate the use of spring cloud functions.
 
-### pre-config H2 (optional - can be used add pre-configured data before start of application)
-	put the script under /src/main/resources/
-	schema.sql -> create table - schemas script
-	data.sql -> add data to tables script
 ##
 ### Dependency
     h2,jpa,spring-cloud-starter-function-web
